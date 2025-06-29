@@ -9,6 +9,7 @@ class Movie {
     use HasDirector;
 
     public function __construct($title, $year, $rating, Genre $genre) {
+        
         $this->title = $title;
         $this->year = $year;
         $this->rating = $rating;
@@ -18,5 +19,9 @@ class Movie {
     public function getGenreName() {
         return $this->genre->getName();
     }
+
+    
+
+
 }
 ?>

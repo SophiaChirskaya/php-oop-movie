@@ -3,6 +3,10 @@ require_once './Traits/HasDirector.php';
 require_once './Models/Genre.php';
 require_once './Models/Movie.php';
 require_once './db.php';
+
+$movies[0]->setDirector('Francis Ford Coppola');
+$movies[1]->setDirector('Frank Darabont');
+$movies[2]->setDirector('Frank Darabont');
 ?>
 <html lang="en">
 <head>
